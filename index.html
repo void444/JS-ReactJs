@@ -11,37 +11,63 @@
     <h1>hello this is JS Bssics</h1>
     <script>
         // for loop examples
-        var a = "hello this is me";
-        console.log(a);
-        for (i = 0; i < 10; i++) {
-            console.log(a + i + "hello");
-        }
+        // var a = "hello this is me";
+        // console.log(a);
+        // for (i = 0; i < 10; i++) {
+        //     console.log(a + i + "hello");
+        // }
 
-        // while loop examples
-        var a =12;
-        while (a<20){
-            a++;
-            console.log(a);
-            document.write(a + "__");
-        }
+        // // while loop examples
+        // var a =12;
+        // while (a<20){
+        //     a++;
+        //     console.log(a);
+        //     document.write(a + "__");
+        // }
 
         // functions examples
         // reuse with different data and same functionality
         // lots of methods to make functions in ES5 and ES6
 
-        function hello(){
-            console.log("hello");
-        }
-        hello();
+        // function hello(){
+        //     console.log("hello");
+        // }
+        // hello();
 
-        // array example
-        var arr = [1,2,3,4,5]
-        console.log(arr[0]);
-        // push,pop,shift,unshift
+        // // array example
+        // var arr = [1,2,3,4,5]
+        // console.log(arr[0]);
+        // // push,pop,shift,unshift
 
-        arr.push(8);
-        // arr.pop(2);
-        console.log(arr);
+        // arr.push(8); 
+        // arr.pop(2); 
+        // console.log(arr);
+
+        // object is something that holds  one's details
+
+
+
+        // diffference between var let and const keywords
+        // ES5(old JS)(var),ES6(new JS)(let&const)
+        // var is function scoped and let is braces scoped
+
+// function abcd(){
+//     for(var i =1; i<12;i++){
+//         console.log(i);
+//     }
+//     console.log(i);
+// }
+// abcd();
+
+function abcd(){
+    for(let i =1; i<12;i++){
+        console.log(i);
+    }
+    console.log(i); //error incase of let
+}
+abcd();
+
+// var adds itself to the window object and let and const doesnot 
     </script>
 </body>
 
