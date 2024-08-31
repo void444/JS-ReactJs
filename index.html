@@ -1,74 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <h1>hello this is JS Bssics</h1>
-    <script>
-        // for loop examples
-        // var a = "hello this is me";
-        // console.log(a);
-        // for (i = 0; i < 10; i++) {
-        //     console.log(a + i + "hello");
-        // }
+    <div id="main">
+        <div id="panel">
+            <div id="ptop">
+                <div class="elem">
+                    <h3>Hit</h3>
+                    <div class="box" id="hitval">
+                     2
+                    </div>
+                </div>
+                <div class="elem">
+                    <h3>Timer</h3>
+                    <div class="box" id="timerval">
+                        30
+                    </div>
+                </div>
+                <div class="elem">
+                    <h3>Score</h3>
+                    <div class="box" id="scoreval">
+                        0
+                    </div>
+                </div>
 
-        // // while loop examples
-        // var a =12;
-        // while (a<20){
-        //     a++;
-        //     console.log(a);
-        //     document.write(a + "__");
-        // }
-
-        // functions examples
-        // reuse with different data and same functionality
-        // lots of methods to make functions in ES5 and ES6
-
-        // function hello(){
-        //     console.log("hello");
-        // }
-        // hello();
-
-        // // array example
-        // var arr = [1,2,3,4,5]
-        // console.log(arr[0]);
-        // // push,pop,shift,unshift
-
-        // arr.push(8); 
-        // arr.pop(2); 
-        // console.log(arr);
-
-        // object is something that holds  one's details
-
-
-
-        // diffference between var let and const keywords
-        // ES5(old JS)(var),ES6(new JS)(let&const)
-        // var is function scoped and let is braces scoped
-
-// function abcd(){
-//     for(var i =1; i<12;i++){
-//         console.log(i);
-//     }
-//     console.log(i);
-// }
-// abcd();
-
-function abcd(){
-    for(let i =1; i<12;i++){
-        console.log(i);
-    }
-    console.log(i); //error incase of let
-}
-abcd();
-
-// var adds itself to the window object and let and const doesnot 
-    </script>
+            </div>
+            <div id="pbtm">
+                <div class="bubble">
+                76
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
-
 </html>
