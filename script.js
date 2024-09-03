@@ -27,7 +27,6 @@ function runTimer() {
             timer--;
             document.querySelector("#timerval").textContent = timer;
         } else {
-
             clearInterval(timerint);
             document.querySelector("#pbtm").innerHTML = `<h1>geme over <br><button onclick="window.location.reload();">Restart</button><h1> `;
         }
